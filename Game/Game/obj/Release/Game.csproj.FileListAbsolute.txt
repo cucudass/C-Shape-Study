@@ -1,0 +1,6 @@
+D:\VisualStudioProject\Game\Game\bin\Release\Game.exe.config
+D:\VisualStudioProject\Game\Game\bin\Release\Game.exe
+D:\VisualStudioProject\Game\Game\bin\Release\Game.pdb
+D:\VisualStudioProject\Game\Game\obj\Release\Game.csproj.CoreCompileInputs.cache
+D:\VisualStudioProject\Game\Game\obj\Release\Game.exe
+D:\VisualStudioProject\Game\Game\obj\Release\Game.pdb
