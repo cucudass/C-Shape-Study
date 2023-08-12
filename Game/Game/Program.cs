@@ -5,68 +5,50 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Game {
+    #region class
+    //사용자 정의 데이터 유형으로 속성, 함수가 포함되어 있으며, 클래스를 통해 객채를 생성하여 접근하고 사용할 수 있는 집합체
+    public class Monster {
+        //접근지정자 -> 클래스 내부에 포함되어 있는 속정의 접근 범위를 제한하는 지정자
+        //public: 클래스 내부와 외부 및 자기가 상속하는 클래스에서 접근을 허용
+        //private: 클래스 내부에서만 접근 가능. 외부 및 자기가 상속하는 클래스에서 접근 허용 X
+        //protected: 클래스 내부와 자기가 상속하는 클래스에서만 접근을 허용. 외부에서는 접근 허용 X
+        //기본접근지정자: private
+
+        public int health;
+        public char grade;
+
+        //바이트 패딩 -> 멤버 변수를 메모리에서 cpu로 읽을 때 한 번에 읽을 수 있도록, 레지스터 블록에 맞춰서 바이트를 패딩해주는 최적화 작업
+    }
+    
+    #endregion
     class Program {
-        //프로그램이 실행되는 진입점
         static void Main(string[] args) {
-            //Console.WriteLine(): 특정 문자열을 출력하는 함수
-            Console.WriteLine("Hello, World");
+            #region 배열
+            ////같은 자료형의 변수들로 이루어진 유한 집합
+            ////원하는 원소에 원하는 값을 저장하며, 컴파일 되는 시점부터 고정된 메모리 공간을 가진다.
+            //int[] array = new int[3];
+            //array[0] = 10;
+            //array[1] = 20;
+            //array[2] = 30;
 
-            #region 변수
-            // 데이터를 저장할 수 있는 메모리 공간을 생성하는 것
-            // 자료형 -> 데이터를 저장하기 위해 데이터를 정해주는 것
-
-            // //etc...
-            // //bool <- 1 byte
-            // bool data = false;
-            // Console.WriteLine("data: "+data);
-            // //문자
-            // //char <- 1 byte
-            // char alphabet = 'A';
-            // Console.WriteLine("alphabet: " + alphabet);
-            // //정수
-            // //short <- 2 byte
-            // //int <- 4 byte
-            // int attack = 10;
-            // Console.WriteLine("attack: " + attack);
-            // //실수
-            // //float <- 4 byte
-            // //double <- 8 byte
-            // float exp = 99.75f;
-            // Console.WriteLine("exp: " + exp);
-            // //문자열
-            // //string <- 16 byte
-            // string name = "Goblin";
-            // Console.WriteLine("name: " + name);
+            //for (int i = 0; i < array.Length; i++) {
+            //    Console.WriteLine(array[i]);
+            //}
             #endregion
 
-            #region 변수이름 규칙
-            // 1. 변수의 이름은 숫자로 시작 X
-            // ex) int i5 = 10;
-
-            // 2. 변수의 이름에는 공백 X
-            // ex) int level up = 30;
-
-            // 3. 변수 이름 중복 X
-            // 변수의 이름은 대소문자 구분 O
-            // ex) int value = 10;
-            // ex) int VALUE = 20;
-
-            // 4. 변수의 이름으로 예약어 사용 X
-            // 5. 변수 이름의 특수 기호는 "_" 만 사용 가능
+            #region 박싱과 언박싱
+            //박싱: 값 형식을 참조하는 형식으로 변환하는 작업
+            //int x = 100;
+            //
+            //object obj = x;
+            //
+            ////언박싱: 참조 형식을 값 형식으로 변환하는 작업
+            //int result = (int)obj;
             #endregion
 
-            #region 상수
-            // 프로그램이 실행되는 동안 더 이상 변경할 수 없는 메모리 공간
-            // ex) 몬스터 이름, npc 이름 등등...
-            // int count = 0;
-            // count = 100;
-
-            //상수는 메모리 공간 생성하는 동시에 초기화해야 한다. 한번 저장되면 더 이상 변경 불가
-            // const float pi = 3.141592f;
-
-            //상수
-            // 리터럴 상수 -> 메모리 공간을 가지지 않는 상수
-            // 심볼릭 상수 -> 메모리 공간을 가지는 상수
+            #region 클래스 선언
+            Monster monster = new Monster();
+            monster.health = 100;
             #endregion
 
         }
