@@ -1,0 +1,7 @@
+D:\VisualStudioProject\Game\Editor\bin\Debug\Editor.exe.config
+D:\VisualStudioProject\Game\Editor\bin\Debug\Editor.exe
+D:\VisualStudioProject\Game\Editor\bin\Debug\Editor.pdb
+D:\VisualStudioProject\Game\Editor\obj\Debug\Editor.csproj.CoreCompileInputs.cache
+D:\VisualStudioProject\Game\Editor\obj\Debug\Editor.exe
+D:\VisualStudioProject\Game\Editor\obj\Debug\Editor.pdb
+D:\VisualStudioProject\Game\Editor\obj\Debug\Editor.csprojAssemblyReference.cache
