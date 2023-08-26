@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game", "Game\Game.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Editor", "Editor\Editor.csproj", "{A3FFBE5F-452B-475E-98E7-C4DB026F9C8B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iteration", "Iteration\Iteration.csproj", "{C846E419-CCFB-4C64-A1FF-A2F80D6DBECC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A3FFBE5F-452B-475E-98E7-C4DB026F9C8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3FFBE5F-452B-475E-98E7-C4DB026F9C8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3FFBE5F-452B-475E-98E7-C4DB026F9C8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C846E419-CCFB-4C64-A1FF-A2F80D6DBECC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C846E419-CCFB-4C64-A1FF-A2F80D6DBECC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C846E419-CCFB-4C64-A1FF-A2F80D6DBECC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C846E419-CCFB-4C64-A1FF-A2F80D6DBECC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

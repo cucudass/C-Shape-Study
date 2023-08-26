@@ -1,0 +1,7 @@
+D:\VisualStudioProject\Game\Iteration\bin\Debug\Iteration.exe.config
+D:\VisualStudioProject\Game\Iteration\bin\Debug\Iteration.exe
+D:\VisualStudioProject\Game\Iteration\bin\Debug\Iteration.pdb
+D:\VisualStudioProject\Game\Iteration\obj\Debug\Iteration.csprojAssemblyReference.cache
+D:\VisualStudioProject\Game\Iteration\obj\Debug\Iteration.csproj.CoreCompileInputs.cache
+D:\VisualStudioProject\Game\Iteration\obj\Debug\Iteration.exe
+D:\VisualStudioProject\Game\Iteration\obj\Debug\Iteration.pdb
